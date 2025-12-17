@@ -1,0 +1,253 @@
+/* ============================================
+RESET I BASE
+============================================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1a202c;
+  line-height: 1.6;
+  background-color: #f7fafc;
+}
+
+/* ============================================
+MENÚ NAVIGATION STICKY
+============================================ */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header nav {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+header nav a img {
+  width: 3rem;
+  filter: invert(100%);
+  vertical-align: bottom;
+}
+
+header nav a {
+  text-decoration: none;
+}
+
+header nav ul{
+  display: inline-block;
+  margin-left: 2rem;
+}
+header nav span{
+  font-size: 1.5rem;
+  color: #f7fafc;
+}
+
+header nav ul li {
+  padding-right: 1rem ;
+  display: inline-block;
+  padding: 7px;
+  border: solid 1px rgba(255, 255, 255, 0.2) ;
+  border-radius: 4px;
+  backdrop-filter: blur(6px);
+  transition: all 0.5s;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  padding: 0.25rem;
+  color: white;
+}
+
+
+
+/* ============================================
+HERO SECTION AMB PARALLAX
+============================================ */
+.hero {
+  height: 100vh;
+  background-image: url('./../img/hero-section.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+    padding-top: 15rem;
+}
+.hero-content{
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  color: white;
+  text-shadow: 0 0 3px black;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+}
+.hero-content p{
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.btn-glass {
+  border-radius: 2rem;
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(1px);
+  color: white;
+}
+a{
+  text-decoration: none;
+}
+
+.hero div h1 {
+  text-align: center;
+  font-size: 3rem;
+
+}
+
+#inici {
+  text-align: center;
+}
+/* ============================================
+SECCIÓ DESTINACIONS POPULARS
+============================================ */
+section div h2 {
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+}
+.section-description{
+  text-align: center;
+}
+
+.btn-card{
+  background-color: #3498db;
+  color: white;
+  padding: 16px;
+border-color:#2980b9;
+border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card-content a {
+  text-decoration: none;
+}
+
+.card-content h3{
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.card-content p {
+  text-align: left;
+  font-size: 1rem;
+}
+
+#destinacions .travel-card {
+  display: inline-block;
+  width: 31%;
+  margin: 0 1%;
+  box-shadow: 2px 2px 1px rgb(0, 0, 0, 0.2);
+  border-radius: 2rem;
+  padding-bottom: 1.5rem;
+}
+#destinacions .travel-card img {
+width: 100%;
+border-radius: 2rem 2rem 0 0;
+
+}
+
+.card-price{
+  color: #1abc9c;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+
+
+/* ============================================
+OFERTES DESTACADES
+============================================ */
+.ofertes h2{
+text-align: center;
+}
+
+.featured-card{
+    display: inline-block;
+  width: 20%;
+  margin: 0 1%;
+  box-shadow: 0px 0px 8px rgb(0, 0, 0, 0.2);
+  border-radius: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.featured-card img{
+  width: 100%;
+}
+
+
+.featured-badge{
+  background-color:#e74c3c;
+  border-radius: 1.5rem 1.5rem 0 0;
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+.featured-card .featured-content p {
+color: #4a5568 ;
+font-size: 14px;
+}
+.featured-card .featured-content .featured-price {
+  text-decoration: line-through;
+  color: #e74c3c;
+  font-weight: 900;
+}
+.featured-card .featured-content .featured-price-new {
+  color: #1abc9c;
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+.featured-content {
+  padding-left: 1rem;
+}
+.card-container .featured-card img {
+  width: 100%;
+}
+
+/* ============================================
+FOOTER
+============================================ */
+#contacte {
+  background-color: #1a202c;
+  text-align: center;
+}
+#contacte h3 {
+  color: #1abc9c;
+  font-size: 29px;
+  padding: 1rem;
+}
+#contacte p {
+  color: #f7fafc ;
+  font-size: 11px;
+}
